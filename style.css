@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251,251,253);
+    margin: 0px;
+    font-family: 'SF Pro Display';
+}
+.topnav{
+    position: sticky;
+    top: 0px;
+    
+}
+.topnav ul{
+    background-color: rgb(48, 48, 48);
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topnav li{
+    list-style: none;
+    font-family:'SF Pro Display Thin';
+    padding: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 30px;
+    letter-spacing: 1px;
+}
+.topnav a{
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 0.7; 
+    
+}
+.topnav a:hover{
+    color: white;
+    opacity: 1;
+}
+.bag{
+    height: 25px;
+    width: 25px;
+}
+.back{
+    height: 20px;
+    width: 20px;
+}
+.shop{
+    text-align: center;
+    background-color:rgb(245,245,247,1);
+    padding: 12px;
+    font-size: 14px;
+}
+.shop a{
+    color: rgb(0,102,204);
+    text-decoration: none;
+}
+.container{
+
+    margin: 0px;
+    margin-bottom: 15px;
+    height: 90vh;
+    width: 70%;
+background-image: url('12.jpg');
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.iphone{
+    text-align: center;
+    max-width: 50%;
+    margin-top: 5%;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.iphone h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.iphone h2{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.iphone p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.buy{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.buy a{
+    font-size: 20px;
+}
+.container101{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+.container102{
+    margin: 0px;
+    height: 120vh;
+    width: 100vw;
+background-image: url('12pro.jpg');
+background-repeat: no-repeat;
+background-size: 1480px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.iphonepro{
+    text-align: center;
+    max-width: 50%;
+    margin-top: 8%;
+    color: rgb(245,245,247,1);
+}
+.iphonepro h1{
+    
+    font-size: 55px;
+    font-weight: 600;
+}
+.iphonepro h2{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.iphonepro p{
+    font-size: 18px;
+    color: rgba(245, 245, 247, 0.5);
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.container101 a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.buy101{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.buy101 a{
+    font-size: 20px;
+}
+.container1001{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+}
+.container1002{
+    margin: 0px;
+    height: 120vh;
+    width: 100vw;
+background-image: url('Ipad.jpg');
+background-repeat: no-repeat;
+background-size: 1480px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.container1001 a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.buy1001{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.buy1001 a{
+    font-size: 20px;
+}
+
+.halfmain{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+.imac{
+    width: 50%;
+    margin-right: 10px;
+    /* background-color: blue; */
+    background-image: url('1.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.imac h1{
+    font-family: 'SF Pro Display';
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.imac h2{
+    font-family: 'SF Pro Display';
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.imac a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.shopimac{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.watch{
+    width: 50%;
+    background-image: url('2.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.watch h1{
+    font-family: 'SF Pro Display';
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 75px;
+
+}
+.watch h2{
+    font-family: 'SF Pro Display';
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.watch a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.shopwatch{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.halfmain2{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+} 
+.macipadpods{
+    width: 50%;
+    margin-right: 10px;
+    /* background-color: blue; */
+    background-image: url('3.jpg');
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.macipadpods h1{
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.macipadpods a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.shopmacipadpods{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.airtag{
+    width: 50%;
+    background-image: url('4.jpg');
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.airtag h1{
+    font-family: 'SF Pro Display';
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 75px;
+
+}
+.airtag h2{
+    font-family: 'SF Pro Display';
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.airtag a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.shopairtag{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+.halfmain3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+} 
+.card{
+    width: 50%;
+    margin-right: 10px;
+    /* background-color: blue; */
+    background-image: url('5.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.card img{
+    width: 100px;
+    margin-top: 70px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card h2{
+    font-family: 'SF Pro Display';
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.card a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.shopcard{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.tv{
+    width: 50%;
+    background-image: url('6.jpg');
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.tv img{
+    width: 100px;
+    margin-top: 70px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tv a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.shoptv{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 540px;
+}
+
+.buttom{
+    background-color: whitesmoke;
+    margin-top: 0%;
+    padding-bottom: 30px;
+}
+.para{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.para p{
+    font-size: 12px;
+    text-align: left;
+    color: rgb(142,142,147);
+}
+.buttom hr{
+    color: rgb(142,142,147);
+}
+.containerending{
+    display: flex;
+    flex-direction: row;
+    margin-right: 18%;
+    margin-left: 18%;
+}
+.ending{
+    display: flex;
+    padding-right: 100px;
+}
+.ending h3{
+    color: rgb(72,72,74);
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.ending li{
+list-style: none;
+margin-bottom: 7px;
+width: 113px;
+}
+.ending a{
+    text-decoration: none;
+    color: rgb(142,142,147);
+    font-size: 12px;
+}
+.ending a:hover{
+    text-decoration:underline;
+}
+
+
+.final{
+    margin-right: 18%;
+    margin-left: 18%;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+}
+.final hr{
+    color: rgb(142,142,147);
+    margin-bottom: 10px;
+}
+.final h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(142,142,147);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.final a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+    margin-top: 50px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    margin-right: 18%;
+    margin-left: 18%;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+}
+.last h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(142,142,147);
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+.last li{
+    list-style: none;
+    margin-bottom: 0px;
+}
+.last ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 0px;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(142,142,147);
+    font-size: 12px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.us{
+
+    margin-left: 153px;
+    margin-bottom: 0px;
+}
+
+
+
+
